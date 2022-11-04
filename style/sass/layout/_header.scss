@@ -1,0 +1,271 @@
+.header__bottom {
+    background: #fff;
+    border: 1px solid #F3F3F3;
+    padding: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+
+
+
+.header__bottom-link-img{
+    position: absolute;
+    top: -16px;
+    left: 7px;
+}
+
+
+
+.box__cont{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.header__bottom-list{
+    display: flex;
+    margin-left: 176px;
+}
+
+// .fish::before {
+//     position: absolute;
+//     left: -32px;
+//     content: "";
+//     width: 20px;
+//     height: 15px;
+//     display: inline-block;
+//     background-repeat: no-repeat;
+//     background-image: url(/images/fish.svg);
+// }
+
+
+.fish::before{
+    position: absolute;
+    left:-32px;
+    content: "";
+    width:20px ;
+    height: 15px;
+    display: inline-block;
+    background-repeat:no-repeat;
+    background-image:url(/images/fish.svg);
+}
+
+.bottomimg{
+    &:hover{
+        opacity: 0.6;
+    }
+}
+
+
+
+.header__list-link{
+    &:active{
+        color: #000;
+        opacity: 0.6;
+    }
+}
+
+
+
+
+
+.header__third-text{
+    &:hover{
+        color: #efa122;
+    }
+    &:active{
+        color: #000;
+        opacity: 0.6px;
+    }
+}
+
+
+
+.header__third-time{
+    &:hover{
+        color: #efa122;
+    }
+    &:active{
+        color: #000;
+        opacity: 0.6;
+    }
+}
+
+
+
+.header__bottom-item-link{
+    border-bottom: 2px transparent;
+
+    &:hover{
+        color: rgba(12,12,12, 0.8);
+    }
+    &:active {
+         color: #090909;
+         opacity: 0.6;
+   }
+}
+
+
+
+.header__bottom-item{
+    margin: 0px 32px;
+    position: relative;
+}
+
+.header__bottom-link{
+    &:hover {
+        border-bottom: 2px solid grey;
+    }
+}
+
+
+
+.fish::before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 15px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(/images/fish.svg);
+}
+
+
+.header__bottom-link{
+    color: #000;
+}
+
+
+.header__bottom-item-link{
+    position: relative;
+    margin-left: auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333;
+
+    &::before{
+        position: absolute;
+        left: -32px;
+        content: "";
+        width: 27px;
+        height: 25px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-image: url(/images/header-paw.svg);
+    }
+}
+
+//  HEADER__TOP 
+
+
+.header__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list{
+    margin-left: 57px;
+}
+
+
+.header__second-list{
+    display: flex;
+}
+
+
+.header__third-list{
+    display: flex;
+}
+
+
+.header__list-link{
+    padding: 11px 0px;
+    color: #000;
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    margin: 0 14px;
+    color: #333;
+    
+    &:hover{
+        color: #efa122;
+    }
+
+}
+.header__list-adress {
+    position: relative;
+    font-weight: 500;
+     font-size: 14px;
+    line-height: 18px;
+     color: #333333;
+
+     &::before {
+        position: absolute;
+         top: 13px;
+         left: -7px;
+         content: "";
+         width: 14px;
+         height: 13px;
+         display: inline-block;
+         background-repeat: no-repeat;
+         background-image: url(/images/house.svg);
+    }
+ }
+
+ .header__second-item {
+     position: relative;
+ }
+
+ .point {
+     &::before {
+         position: absolute;
+         content: "";
+         width: 4px;
+        height: 4px;
+         background-color: #FFBD54;
+         display: inline-block;
+         border-radius: 5px;
+         top: 18px;
+     }
+ }
+
+ .header__second-list {     position: relative;
+
+     &::before {
+         position: absolute;
+         top: 13px;
+         left: -6px;
+         content: "";
+         width: 14px;
+         height: 13px;
+         display: inline-block;
+         background-repeat: no-repeat;
+         background-image: url(/images/heade-phone-icon.svg);
+     }
+ }
+
+
+ .header__third-list {
+     font-size: 14px;
+   line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+     &::before {
+        position: absolute;
+        left: -6px;        
+         content: "";
+        width: 14px;
+        height: 13px;
+        display: inline-block;         background-repeat: no-repeat;
+        background-image: url(images/head-kalen.svg);
+    }
+}
+ .header__third-item {
+    margin-left: 17px;
+ }

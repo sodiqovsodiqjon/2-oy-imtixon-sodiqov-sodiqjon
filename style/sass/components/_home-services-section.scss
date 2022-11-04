@@ -1,0 +1,84 @@
+
+
+.services__box{
+    margin-top: 100px;
+}
+
+.services__blockquote{
+    position: relative;
+    width: 500px;
+    height: 78px;
+}
+
+ .services__blockquote{
+    position: relative;
+    width: 700px;
+    height: 78px;
+    font-family: "Futura PT";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #949494;
+    left: 263px;
+     &::before{
+         position: absolute;
+        top: -21px;
+         left: -70px;
+         content: "";
+         width: 142px;
+       height: 128px;
+         display: inline-block;
+         background-repeat: no-repeat;
+         background-image: url(/images/ong-qowt.svg);
+     }
+
+     &::after{
+                 position: absolute;
+                 top: 33px;
+                 left: 784px;
+                 content:"";
+                 width: 142px;
+                height: 128px;
+
+                 right: 55px;
+                 display: inline-block;
+                 background-repeat: no-repeat;
+                 background-image: url(/images/chap-qowt.svg);
+     }
+}
+
+ .services__spn{
+     display: block;
+     width: 140px;
+ height: 0px;
+ margin: 0 auto;
+
+ border: 1px solid #DBDBDB;
+    
+ }
+ .services__spn1{
+     display: block;
+     width: 140px;
+ height: 0px;
+ margin: 0 auto;
+
+ border: 1px solid #DBDBDB;
+    
+ }
+ .service__text{
+    width: 363px;
+    height: 26px;
+    justify-content: center;
+    text-align: center;
+    margin: 45px 0px 191px 463px;
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #333333;
+ }

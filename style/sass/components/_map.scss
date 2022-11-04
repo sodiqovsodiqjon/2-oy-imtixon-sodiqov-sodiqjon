@@ -1,0 +1,84 @@
+.map__back {
+    color: #FFFFFF;
+    background: #333333;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-left: 10 0px;
+}
+
+.map__box {
+    margin-top: 80px;
+    background-color: #333333;
+    position: relative;
+    display: flex;
+
+    &::after {
+        position: absolute;
+        top: 145px;
+        right: -3px;
+        content: "";
+        width: 309px;
+        height: 358px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(/images/goldfish.png);
+    }
+}
+
+.map__input-text {
+    width: 375px;
+    height: 50px;
+    left: 624px;
+    top: 3852px;
+
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+
+.map__back {
+    display: inline-block;
+    flex-direction: column;
+
+}
+
+.map__input-text {
+    display: block;
+}
+
+.map__input-link {
+    color: #FFFFFF;
+    width: 226px;
+    height: 50px;
+    left: 624px;
+    font-size: 14px;
+    top: 4175px;
+    padding: 15px 50px;
+    background: #FFBD54;
+    border-radius: 6px;
+}
+
+.map__back-text {
+    width: 334px;
+    height: 40px;
+    left: 626px;
+    top: 3783px;
+
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+
+
+    color: #949494;
+}
+
+.map__inp {
+    padding: 16px 290px 13px 22px;
+    background: #FFFFFF;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    border: none;
+}

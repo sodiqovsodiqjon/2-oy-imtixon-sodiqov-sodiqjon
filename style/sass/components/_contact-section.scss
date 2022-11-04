@@ -1,0 +1,52 @@
+.contact {
+    margin-top: 160px;
+    background-image: url("/images/section-contact.png");
+}
+
+// .contact__box{
+//     padding: 10px 10px 10px 10px;
+// }
+.contact__box{
+    padding: 129px 100px 135px 210px;
+}
+
+.contact__item{
+    width: 494px;
+    height: 48px;
+    left: 287px;
+    top: 2394px;
+    
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 20px;
+    /* or 42% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+.contact__input{
+    width: 335px;
+height: 50px;
+left: 287px;
+top: 2474px;
+text-align: center;
+color:#949494;
+background: #FFFFFF;
+border-radius: 5px;
+border-color: #FFFFFF;
+}
+.contact__link{
+    width: 188px;
+height: 50px;
+left: 643px;
+top: 2474px;
+color: #FFFFFF;
+padding: 15px 53px;
+background: #333333;
+border-radius: 3px;
+}

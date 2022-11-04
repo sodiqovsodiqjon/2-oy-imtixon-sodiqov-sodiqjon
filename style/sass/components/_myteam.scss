@@ -1,0 +1,177 @@
+.myteam__list {
+    position: relative;
+    display: flex;
+    margin-top: 80px;
+    &::before{
+        position: absolute;
+        top: 85px;
+        left: -45px;
+         content: "";
+         width: 14px;
+       height: 26px;
+         display: inline-block;
+         background-repeat: no-repeat;
+         background-image: url(/images/Vector\ \(5\).png);
+    }
+}
+.arrow{
+    // position: relative;
+    &::after{
+        position: absolute;
+         top: 93px;
+         right: 0px;
+         content: "";
+         width: 14px;
+       height: 26px;
+         display: inline-block;
+         background-repeat: no-repeat;
+         background-image: url(/images/Vector\ \(6\).png);
+    }
+}
+
+
+.myteam__list-item {
+    text-align: center;
+    width: 193px;
+    height: 215px;
+    left: 109px;
+    top: 1440px;
+    background: #FFFFFF;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    margin: 0 9px;
+    justify-content: center;
+    align-items: center;
+}
+
+.myteam__list-img {
+    margin-left: 16px;
+    margin-top: 56px;
+}
+
+.myteam__item {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    color: #333333;
+}
+
+.myteam__minbox {
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 0px 5px 5px 5px;
+    margin-top: 16px;
+}
+
+
+
+.myteam__mybox-img {
+    width: 590px;
+    height: 332px;
+    border-radius: 10px;
+}
+
+
+.myteam__revers {
+    margin-left: 124px;
+}
+
+.myteam__text {
+
+    width: 126px;
+    height: 44px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    text-align: center;
+    color: #333333;
+    margin-left: 36px;
+}
+
+.myteam__list-link {
+    text-align: center;
+}
+
+.myteam__minbox-item {
+    width: 333px;
+    height: 35px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.myteam__minbox-text {
+    width: 492px;
+    height: 60px;
+    left: 735px;
+    top: 1782px;
+
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+.myteam__btn {
+    position: relative;
+    background-color: #FFBD54;
+    padding: 15px 36px 12px 63px;
+    border-radius: 3px;
+    border-color: #FFBD54;
+    color: #fff;
+
+    &::before {
+        position: absolute;
+        top: 11px;
+        left: 32px;
+        width: 22px;
+        height: 21px;
+        content: "";
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-image: url(/images/money.svg);
+    }
+
+    &:hover {
+        background-color: #333;
+        color: #FFBD54;
+    }
+
+    &:active {
+        background-color: #333;
+        opacity: 0.6;
+    }
+}
+
+.myteam__link {
+    position: relative;
+    padding: 15px 37px 14px 64px;
+    width: 241px;
+    height: 50px;
+    // left: 941px;
+    // top: 1945px;
+    color: #fff;
+    background: #333333;
+    border-radius: 3px;
+
+    &::before {
+        position: absolute;
+        top: 11px;
+        left: 34px;
+        width: 21px;
+        height: 21px;
+        content: "";
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-image: url(/images/list1.svg);
+    }
+}
